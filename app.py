@@ -6,8 +6,8 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, d
 from tensorflow.keras.preprocessing.image import img_to_array
 
 st.set_page_config(page_title="Universal Object Recognizer", page_icon="🌍")
-st.title("Universal Object Recognizer 🧠 (ResNet50 Upgrade)")
-st.write("Upload an image of almost anything. This app now uses the heavier ResNet50 model for better accuracy!")
+st.title("Universal Object Recognizer 🧠")
+st.write("Upload an image of almost anything and the ai will guess it for you ")
 
 # 2. UPGRADED: Loading the heavier ResNet50 brain
 @st.cache_resource
